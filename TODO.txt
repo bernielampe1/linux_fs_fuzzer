@@ -1,0 +1,14 @@
+TODO:
+    Finish gen_fs.c
+    Document so others can use it 
+    Add more namespace options to isolate
+    Create script to configure/instrument/build kernel and qemu image to run
+    Generate all the filesystem files to fuzz
+    Port over android implementations to vanilla kernel for fuzzing
+    Fuzz while fixing/removing the checksums
+    Add CRUD fs interactions during fuzzing
+    Use UML instead of qemu for fuzzing
+    Disable instrumentation in interrupts
+    Disable SMP=n and PREMEPT=n
+    Fuzz on deoptimized kernel
+    Fuzz kernel with delays inserted into locking primitives
